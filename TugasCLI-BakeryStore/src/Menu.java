@@ -95,7 +95,7 @@ public class Menu {
         if (price <= 0 || stock < 0) {
             System.out.println("Harga tidak valid.");
         } else if (store.addCake(cake)) {
-            System.out.println("Data berhasil ditambahkan.");
+            System.out.println("Kue berhasil ditambahkan.");
         } else {
             System.out.println("Nama kue sudah terdaftar.");
         }
